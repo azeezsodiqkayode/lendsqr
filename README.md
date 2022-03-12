@@ -76,6 +76,7 @@ npm run dev
 
 
 # How to use it
+Load/Run the database "lendsqr.sql"
 
 ## Development server
 
