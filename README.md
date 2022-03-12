@@ -82,6 +82,9 @@ Load/Run the database "lendsqr.sql"
 
 Run `npm run dev` for a dev server. Navigate to `http://localhost:8700/`
 
+## Test
+Run `npm run test` for test 
+
 # Endpoints 
 swagger documentation 
 http://localhost:8700/api-docs/
