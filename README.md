@@ -20,7 +20,7 @@
 
 - [Jest] for testing asynchronous Javascript.
 - [Nodemon](https://www.npmjs.com/package/nodemon "Nodemon") for restarting the node application when file changes in the directory are detected.
-
+- swagger for api documentation
 
 
 
@@ -80,3 +80,8 @@ npm run dev
 ## Development server
 
 Run `npm run dev` for a dev server. Navigate to `http://localhost:8700/`
+
+# Endpoints 
+swagger documentation 
+http://localhost:8700/api-docs/
+
