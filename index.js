@@ -59,24 +59,23 @@ app.get('/', (req, res) => {
 
 
 const swaggerDefinition = {
-	"swagger": "2.0",
-	"openapi": '1.0.0',
+	"openapi": '3.0.0',
 	info: {
-		title: 'Lendsqr assessment',
-		version: '1.0.0',
-		description: 'API Docs for Lendsqr',
-		license: {
-		  name: 'Azeez-Sodiq',
-		  url: '',
-		},
-		contact: {
-		  name: '',
-		  url: '',
-		},
+			title: 'Lendsqr assessment',
+			version: '1.0.0',
+			description: 'API Docs for Lendsqr',
+			license: {
+			name: 'Azeez-Sodiq',
+			url: '',
+			},
+			contact: {
+			name: '',
+			url: '',
+			},
 	  },
 	  servers: [
 		{
-		  url: `http://localhost:${port}/api/v1`,
+		  url: `https://localhost:${port}/api/v1`,
 		  description: 'Development server',
 		},
 		{

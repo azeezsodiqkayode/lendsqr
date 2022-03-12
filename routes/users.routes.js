@@ -7,7 +7,7 @@ const { authorization } = require('../middlewares/authorization')
 /**
  * create a new user
  * @swagger
- * /user:
+ * /user/create:
  *   post:
  *     summary: Create a new user
  *     description: This Creates a new user
@@ -19,7 +19,7 @@ const { authorization } = require('../middlewares/authorization')
  *       - name: firstname	 
  *         in: body	 
  *         required: true
- *       - name: lastname	 
+ *       - name: surname	 
  *         in: body	 
  *         required: true
  *       - name: email	 
