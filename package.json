@@ -36,11 +36,8 @@
     "winston": "^3.6.0"
   },
   "devDependencies": {
-    "chai": "^4.2.0",
-    "chai-http": "^4.2.1",
     "express-routemap": "^1.6.0",
     "jest": "^27.5.1",
-    "mocha": "^5.2.0",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.15",
     "sequelize-cli": "^6.4.1",
