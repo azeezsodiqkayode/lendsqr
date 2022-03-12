@@ -34,3 +34,10 @@ const verifyPayment = async(payment_ref) => {
     })
     
 }
+
+module.exports = {
+    initializePayment,
+    verifyPayment
+
+
+}
