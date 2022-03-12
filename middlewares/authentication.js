@@ -20,7 +20,7 @@ const authentication = (req, res, next) => {
          if (err) {
             res.status(401).send({
                 status: false,
-                message: 'Unauthorized Acesss'
+                message: 'Unauthorized Access'
                         
             })
          }
